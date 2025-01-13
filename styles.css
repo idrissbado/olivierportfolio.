@@ -1,0 +1,187 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Updated to use Roboto font */
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+    color: #004d99;
+}
+
+a {
+    text-decoration: none;
+    color: #004d99;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    background-color: #004d99;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.home .button {
+    background-color: #ffcc00;
+    color: #004d99;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.home .button:hover {
+    background-color: #e6b800;
+}
+
+/* About Section */
+ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Research Section */
+section#research ul {
+    list-style: none;
+}
+
+section#research li {
+    margin-bottom: 10px;
+}
+
+/* Work Section */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #004d99;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card .button {
+    background-color: #ffcc00;
+    color: #004d99;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card .button:hover {
+    background-color: #e6b800;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #004d99;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+/* Footer */
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
